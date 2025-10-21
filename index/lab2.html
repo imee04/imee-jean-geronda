@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile - Imee jean T.Geronda</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: gray; /* very dark gray */
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: black; /* dark black */
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1.4em;
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      flex: 1;
+      padding: 30px;
+      gap: 20px;
+    }
+
+    aside {
+      width: 28%;
+      background: white;
+      color: black;
+      padding: 30px 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 10px;
+    }
+
+    aside img {
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 3px solid black;
+      margin-bottom: 15px;
+    }
+
+    aside h1 {
+      margin: 10px 0 5px;
+      font-size: 1.6em;
+      color:black;
+    }
+
+    aside p {
+      font-size: 1em;
+      opacity: 0.8;
+    }
+
+    article, section {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid black;
+    }
+
+    .content {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+
+    h2 {
+      color:black;
+      margin-bottom: 12px;
+      font-size: 1.1em;
+      text-transform: uppercase;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #fff;
+      border-radius: 6px;
+      overflow: hidden;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+
+    th {
+      background:blanchedalmond ;
+      color: black;
+    }
+
+    blockquote {
+      font-style: italic;
+      color: black;
+      border-left: 4px solid ;
+      padding-left: 12px;
+      margin: 0;
+    }
+
+    blockquote footer {
+      font-size: 0.9em;
+      color:white;
+      margin-top: 5px;
+    }
+
+    footer {
+      background: black;
+      color: white;
+      text-align: center;
+      padding: 12px;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: blue;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Welcome to My Profile
+  </header>
+
+  <main>
+    <aside>
+      <img src="https://uploads.onecompiler.io/43uwvfbzb/43uwxsq4y/435.jpg" alt="Profile picture">
+      <h1>Imee jean T. Geronda</h1>
+      <p>3rd Year IT Student<br> • Davao del Sur State College</p>
+    </aside>
+
+    <div class="content">
+      <section>
+        <h2>About Me</h2>
+        <p>I am a women who loves to explore and learn new things.</p>
+      </section>
+
+      <article>
+        <h2>My Skills</h2>
+        <table>
+          <tr><th>Skill</th><th>Level</th></tr>
+          <tr><td>HTML</td><td>Good</td></tr>
+          <tr><td>CSS</td><td>Average</td></tr>
+          <tr><td>Java</td><td>Average</td></tr>
+        </table>
+      </article>
+
+      <section>
+        <h2>My Goal</h2>
+        <p>My goal is to fined a better job in the future.</p>
+      </section>
+
+      <section>
+        <h2>Favorite Quote</h2>
+        <blockquote>
+          "Be the change that you wish to see in the world."
+          <footer>- Mahatma Gandhi</footer>
+        </blockquote>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:imeejean@gmail.com">imeejean@gmail.com</a></p>
+  </footer>
+</body>
+</html>
